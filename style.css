@@ -23,12 +23,12 @@ nav {
     left: 0;
     width: 100%;
     background-color: white;
-    box-shadow: 5px 10px 30px rgba(0,0,0,0.05);
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
     z-index: 1;
 }
 
 .logo img {
-    height: 50px;
+    height: 45px;
 }
 
 .menu {
@@ -37,31 +37,31 @@ nav {
 
 }
 
-.menu a {
+.menu li a {
     text-decoration: none;
     height: 40px;
     line-height: 43px;
     margin: 3px;
     padding: 0px 22px;
     display: flex;
-    font-size: 0.75em;
+    font-size: 0.8em;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
-    color: rgb(119, 105, 105);
+    color: gray;
 }
 
 .hey {
     text-decoration: none;
-    color:rgba(245, 9, 9, 0.822);
+    color:#39bfbd;
     font-weight: 500;
-    font-size: 0.85em;
-    border-bottom: 2px solid red;
+    font-size: 0.9em;
+    border-bottom: 2px solid #39bfbd;
 }
 
 .team-image {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .team-image img {
@@ -78,7 +78,7 @@ nav {
     position: absolute;
     left: 50%;
     right: 50%;
-    transform: translate(-50%,10%);
+    transform: translate(-50%,20%);
 }
 
 .main-txt {
@@ -93,7 +93,7 @@ nav {
 }
 
 .main-txt p{
-    color: rgb(119, 116, 116);
+    color: grey;
 }
 
 .founder {
@@ -111,7 +111,7 @@ nav {
 .click img {
     height: 100px;
     width: 100px;
-    box-shadow: 5px 10px 30px rgba(139, 47, 24, 0.2);
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
 }
 
 .click p{
@@ -120,21 +120,21 @@ nav {
     justify-content: space-around;
     align-items: center;
     color: white;
-    background-color:rgba(245, 10, 10, 0.8);
+    background-color:#1db096;
     border-radius: 5px;
-    box-shadow: 5px 10px 30px rgba(139, 47, 24, 0.2);
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
 }
 
 .click p:hover{
     
-    background-color:rgba(255, 0, 0, 1);
+    background-color:#23cdaf;
     transition: all ease 0.2s;
 }
 
 .click img:hover {
-    height: 105px;
-    width: 105px;
-    box-shadow: 5px 10px 30px rgba(139, 47, 24, 0.2);
+    height: 103px;
+    width: 103px;
+    transition: all ease 0.2s;
 }
 .heading h1 {
     font-size:3.5em;
@@ -147,7 +147,7 @@ nav {
     font-size: 2em;
     justify-content: space-around;
     align-items: center;
-    color: rgb(119, 116, 116);
+    color:gray;
 }
 .heading{
     width: 90%;
@@ -156,13 +156,14 @@ nav {
     align-items: center;
 }
 
-nav li a:hover {
-    background-color: tomato;
+.menu li a:hover {
+    background-color: #23cdaf;
     color:white;
-    box-shadow: 5px 10px 30px rgba(139, 47, 24, 0.2);
-    border-radius: 10px;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+    transition: all ease 0.2s;
 }
 
 .logo img:hover {
-    height: 53px;
+    height: 48px;
+    transition: all ease 0.2s;
 }
